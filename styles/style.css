@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.font-eb-garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.justice-clr-primary{
+    color: #B68C5A;
+}
+
+.justice-crsl-container{
+    background-blend-mode: multiply;
+    background-image: url(../images/Rectangle-6.png) , url(../images/Rectangle-5.png);
+    height: 60vh;
+    background-size: cover;
+}
+
+.banner{
+    background-blend-mode: multiply;
+    background-image: url(../images/Rectangle-4.png) , url(../images/Rectangle-5.png);
+    height: 80vh;
+    background-size: cover;
+}
+
+form > input,textarea{
+    background-color: #dbdbdbb6;
+    border: none;
+}
